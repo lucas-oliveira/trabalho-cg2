@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (02_model_loading.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  gl3w.c
+  gl_utils.cpp
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\utils\gl_utils.cpp(7,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  04_model_loading.cpp
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\utils\filesystem.h(23,35): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\utils\shader_m.h(53,14): warning C4101: 'infoLog': unreferenced local variable
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\utils\shader_m.h(52,13): warning C4101: 'success': unreferenced local variable
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\02_model_loading\04_model_loading.cpp(101,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\02_model_loading\04_model_loading.cpp(182,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\02_model_loading\04_model_loading.cpp(183,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\02_model_loading\04_model_loading.cpp(187,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\02_model_loading\04_model_loading.cpp(188,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\02_model_loading\04_model_loading.cpp(190,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\02_model_loading\04_model_loading.cpp(191,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\02_model_loading\04_model_loading.cpp(200,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  02_model_loading.vcxproj -> C:\Users\lgonzaga\Desktop\CG2020-2\aula-05\Debug\04_model_loading.exe

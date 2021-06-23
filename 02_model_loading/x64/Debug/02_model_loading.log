@@ -1,0 +1,15 @@
+﻿  04_model_loading.cpp
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\utils\filesystem.h(23,35): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\utils\shader_m.h(53,14): warning C4101: 'infoLog': unreferenced local variable
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\utils\shader_m.h(52,13): warning C4101: 'success': unreferenced local variable
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\utils\learnopengl\mesh.h(91,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(101,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(182,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(183,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(187,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(188,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(190,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(191,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(200,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  02_model_loading.vcxproj -> C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\x64\Debug\04_model_loading.exe
