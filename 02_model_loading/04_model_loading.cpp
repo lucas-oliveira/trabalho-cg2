@@ -85,25 +85,25 @@ int main()
     Model ourModel("../data/mymodel/50%/mesh50%.obj");
     auto end = std::chrono::high_resolution_clock::now();
     auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
-    printf("Tempo leitura estojo 50%: %.3f segundos.\n", elapsed.count() * 1e-9);
+    printf("Tempo de leitura estojo 0.5 mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
 
     begin = std::chrono::high_resolution_clock::now();
     Model ourModel20("../data/mymodel/20%/mesh20%.obj");
     end = std::chrono::high_resolution_clock::now();
     elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
-    printf("Tempo leitura estojo 20%: %.3f segundos.\n", elapsed.count() * 1e-9);
+    printf("Tempo de leitura estojo 0.2 mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
     
     begin = std::chrono::high_resolution_clock::now();
     Model ourLata50("../data/lata/lata50%/lata50%.obj");
     end = std::chrono::high_resolution_clock::now();
     elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
-    printf("Tempo leitura lata 50% mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
+    printf("Tempo de leitura lata 0.5 mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
     
     begin = std::chrono::high_resolution_clock::now();
     Model ourLata20("../data/lata/lata20%/lata20%.obj");
     end = std::chrono::high_resolution_clock::now();
     elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
-    printf("Tempo leitura lata 20% mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
+    printf("Tempo de leitura lata 0.2 mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
 
 
     // draw in wireframe
