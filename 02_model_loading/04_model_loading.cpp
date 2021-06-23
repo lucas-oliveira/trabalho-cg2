@@ -81,17 +81,31 @@ int main()
     // -------------------------
     Shader ourShader("1.model_loading.vs", "1.model_loading.fs");
 
-
     auto begin = std::chrono::high_resolution_clock::now();
-
-    Model ourModel("../data/nanosuit/nanosuit.obj");
-
-
+    Model ourModel("../data/mymodel/50%/mesh50%.obj");
     auto end = std::chrono::high_resolution_clock::now();
-
     auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
+    printf("Tempo leitura estojo 50%: %.3f segundos.\n", elapsed.count() * 1e-9);
 
-    printf("Total loading time: %.3f seconds.\n", elapsed.count() * 1e-9);
+    begin = std::chrono::high_resolution_clock::now();
+    Model ourModel20("../data/mymodel/20%/mesh20%.obj");
+    end = std::chrono::high_resolution_clock::now();
+    elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
+    printf("Tempo leitura estojo 20%: %.3f segundos.\n", elapsed.count() * 1e-9);
+    
+    begin = std::chrono::high_resolution_clock::now();
+    Model ourLata50("../data/lata/lata50%/lata50%.obj");
+    end = std::chrono::high_resolution_clock::now();
+    elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
+    printf("Tempo leitura lata 50% mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
+    
+    begin = std::chrono::high_resolution_clock::now();
+    Model ourLata20("../data/lata/lata20%/lata20%.obj");
+    end = std::chrono::high_resolution_clock::now();
+    elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
+    printf("Tempo leitura lata 20% mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
+
+
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
@@ -125,11 +139,22 @@ int main()
 
         // render the loaded model
         glm::mat4 model;
-        model = glm::translate(model, glm::vec3(0.0f, -1.75f, 0.0f)); // translate it down so it's at the center of the scene
-        model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));	// it's a bit too big for our scene, so scale it down
+        model = glm::translate(model, glm::vec3(0.0f, -0.75f, 0.0f)); // translate it down so it's at the center of the scene
+        model = glm::scale(model, glm::vec3(0.8f, 0.8f, 0.8f));	// it's a bit too big for our scene, so scale it down
         ourShader.setMat4("model", model);
         ourModel.Draw(ourShader);
 
+        model = glm::translate(model, glm::vec3(0.0f, 0.75f, 0.0f));
+        ourShader.setMat4("model", model);
+        ourModel20.Draw(ourShader);
+
+        model = glm::translate(model, glm::vec3(0.0f, 1.0f, 0.0f));
+        ourShader.setMat4("model", model);
+        ourLata50.Draw(ourShader);
+
+        model = glm::translate(model, glm::vec3(1.0f, 0.0f, 0.0f));
+        ourShader.setMat4("model", model);
+        ourLata20.Draw(ourShader);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------
