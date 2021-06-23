@@ -1,7 +1,7 @@
 # Blender MTL File: 'lata1.blend'
 # Material Count: 2
 
-newmtl TextureAtlas_1001.002
+newmtl TextureAtlas_1001.004
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.600000 0.600000 0.600000
@@ -12,7 +12,7 @@ d 1.000000
 illum 1
 map_Kd texture_1001.png
 
-newmtl TextureAtlas_1002.002
+newmtl TextureAtlas_1002.004
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.600000 0.600000 0.600000
