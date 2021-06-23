@@ -2,7 +2,7 @@
 #include <GL/gl3w.h> // here: we need compile gl3w.c - utils dir
 #include <GLFW/glfw3.h>
 #include "gl_utils.h" // parser for shader source files
-
+#include <chrono>
 #include <filesystem.h>
 #include <shader_m.h>
 #include <camera.h>
@@ -82,10 +82,16 @@ int main()
     Shader ourShader("1.model_loading.vs", "1.model_loading.fs");
 
 
+    auto begin = std::chrono::high_resolution_clock::now();
+
     Model ourModel("../data/nanosuit/nanosuit.obj");
 
 
-    
+    auto end = std::chrono::high_resolution_clock::now();
+
+    auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
+
+    printf("Total loading time: %.3f seconds.\n", elapsed.count() * 1e-9);
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
