@@ -3,12 +3,12 @@ C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\utils\filesystem.h(23,35
 C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\utils\shader_m.h(53,14): warning C4101: 'infoLog': unreferenced local variable
 C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\utils\shader_m.h(52,13): warning C4101: 'success': unreferenced local variable
 C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\utils\learnopengl\mesh.h(91,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(118,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(210,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(211,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(215,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(216,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(218,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(219,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(228,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(130,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(230,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(231,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(235,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(236,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(238,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(239,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\02_model_loading\04_model_loading.cpp(248,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   02_model_loading.vcxproj -> C:\Users\lukor\Projects\Unisinos\CG\aula-05 (3)\aula-05\x64\Debug\04_model_loading.exe

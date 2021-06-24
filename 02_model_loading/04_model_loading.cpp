@@ -103,7 +103,19 @@ int main()
     Model ourLata20("../data/lata/lata20%/lata20%.obj");
     end = std::chrono::high_resolution_clock::now();
     elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
-    printf("Tempo de leitura lata 0.2 mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
+    printf("Tempo de leitura lata 0.2 mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9); 
+
+    begin = std::chrono::high_resolution_clock::now();
+    Model ourLivro50("../data/livros/50%/50%.obj");
+    end = std::chrono::high_resolution_clock::now();
+    elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
+    printf("Tempo de leitura livros 0.5 mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
+
+    begin = std::chrono::high_resolution_clock::now();
+    Model ourLivro20("../data/livros/20%/20%.obj");
+    end = std::chrono::high_resolution_clock::now();
+    elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
+    printf("Tempo de leitura livros 0.2 mesh decimate: %.3f segundos.\n", elapsed.count() * 1e-9);
 
 
     // draw in wireframe
@@ -154,7 +166,15 @@ int main()
 
         model = glm::translate(model, glm::vec3(1.0f, 0.0f, 0.0f));
         ourShader.setMat4("model", model);
-        ourLata20.Draw(ourShader);
+        ourLata20.Draw(ourShader); 
+
+        model = glm::translate(model, glm::vec3(-1.0f, 0.0f, -1.5f));
+        ourShader.setMat4("model", model);
+        ourLivro50.Draw(ourShader); 
+
+        model = glm::translate(model, glm::vec3(-1.0f, 0.0f, -2.5f));
+        ourShader.setMat4("model", model);
+        ourLivro20.Draw(ourShader);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         // -------------------------------------------------------------------------------
